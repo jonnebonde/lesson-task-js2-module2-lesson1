@@ -1,4 +1,28 @@
+.results__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+
+  gap: 10px;
+}
+
+
+.games__container {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  justify-content: center;
+  width: 150px;
+  background-color: aquamarine;
+  border: 2px solid black;
+}
+
 .played {
     color: red;
     text-decoration: line-through;
+    border: 2px solid red;
 }
+
+
